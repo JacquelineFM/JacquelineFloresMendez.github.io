@@ -1,0 +1,310 @@
+@font-face {
+  font-family: 'Poppins500';
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: 'Poppins700';
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+input[type="text"] {
+  width: 80%;
+  border-radius: 7px;
+  color: hsl(260, 8%, 14%);
+  height: 25px;
+  padding: 13px;
+  font-family: 'Poppins500';
+  border: none;
+}
+input[type="text"]:focus {
+  color: black;
+}
+body {
+  background-color: #fff;
+  font-size: 18px;
+  font-family: 'Poppins500';
+}
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+header {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Poppins700';
+  font-size: 16px;
+}
+header #logo {
+  flex-grow: 1;
+  flex-basis: 10%;
+  margin: 30px 10px 20px;
+  align-items: center;
+}
+header #menu {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+header #menu ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+}
+header #menu ul li {
+  margin: 0 20px;
+}
+header #menu ul li a {
+  text-decoration: none;
+  color: hsl(257, 7%, 63%);
+  transition: all 300ms;
+}
+header #menu ul li a:hover {
+  color: hsl(260, 8%, 14%);
+}
+header #login {
+  flex-grow: 1;
+  flex-basis: 30%;
+}
+header #login ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  justify-content: flex-end;
+}
+header #login ul li {
+  margin: 0 20px;
+}
+header #login ul li a {
+  text-decoration: none;
+  color: hsl(257, 7%, 63%);
+  transition: all 300ms;
+}
+header #login ul li a:hover {
+  color: hsl(260, 8%, 14%);
+}
+header #login ul li .btn-login {
+  padding: 10px 25px;
+  border-radius: 50px;
+  background: hsl(180, 66%, 49%);
+  color: #fff;
+}
+header #login ul li .btn-login:hover {
+  opacity: 0.5;
+  color: #fff;
+}
+#containerInfo {
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: 'Poppins700';
+  margin: 70px auto 180px;
+}
+#containerInfo #info {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+#containerInfo #info h1 {
+  text-align: left;
+  color: hsl(260, 8%, 14%);
+  font-size: 70px;
+}
+#containerInfo #info #txtInfo {
+  text-align: left;
+  color: hsl(257, 7%, 63%);
+  margin: 0 150px 30px auto;
+  font-family: 'Poppins500';
+}
+#containerInfo #info #btn-info {
+  padding: 10px 25px;
+  border-radius: 50px;
+  background: hsl(180, 66%, 49%);
+  color: #fff;
+  border: none;
+  font-family: 'Poppins700';
+}
+#containerInfo #info #btn-info:hover {
+  opacity: 0.5;
+  color: #fff;
+}
+#containerInfo #imageInfo {
+  flex-grow: 1;
+  flex-basis: 40%;
+}
+#containerInfo #imageInfo img {
+  width: 100%;
+}
+#wrap {
+  width: 100%;
+  background-color: #f0f1f6;
+}
+#wrap #boxViolet {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-image: url("../images/bg-shorten-desktop.svg");
+  background-color: hsl(257, 27%, 26%);
+  padding: 40px 60px;
+  border-radius: 10px;
+  position: relative;
+  top: -62px;
+}
+#wrap #boxViolet .btn-link {
+  padding: 10px 25px;
+  border-radius: 7px;
+  background: hsl(180, 66%, 49%);
+  color: #fff;
+  border: none;
+  font-family: 'Poppins700';
+}
+#wrap #boxViolet .btn-link:hover {
+  opacity: 0.5;
+  color: #fff;
+}
+#wrap .cardlink {
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  margin-bottom: 20px;
+  background: #fff;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+#wrap .cardlink .btnlinks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#wrap .cardlink .btnlinks p {
+  color: hsl(180, 66%, 49%);
+  margin-right: 20px;
+}
+#wrap .cardlink .btnlinks .btnCardLink {
+  padding: 10px 25px;
+  border-radius: 7px;
+  background: hsl(180, 66%, 49%);
+  color: #fff;
+  border: none;
+  font-family: 'Poppins700';
+}
+#wrap .cardlink .btnlinks .btnCardLink:hover {
+  opacity: 0.5;
+  color: #fff;
+}
+#wrap .wrapInfo {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: auto;
+}
+#wrap .wrapInfo h2 {
+  text-align: center;
+  color: hsl(260, 8%, 14%);
+  font-size: 30px;
+  font-family: 'Poppins700';
+}
+#wrap .wrapInfo #txtWrapInfo {
+  text-align: center;
+  color: hsl(257, 7%, 63%);
+  font-size: 18px;
+  font-family: 'Poppins500';
+  margin: 10px 330px;
+}
+#containerFeatures {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Poppins700';
+  justify-content: space-between;
+  height: 350px;
+  align-items: flex-start;
+}
+#containerFeatures .cardFeatures {
+  flex-grow: 1;
+  flex-basis: 30%;
+  margin: 0 10px;
+}
+#containerFeatures .cardFeatures .cardlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: hsl(257, 27%, 26%);
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  position: relative;
+  top: 35px;
+  left: 20px;
+}
+#containerFeatures .cardFeatures .cardlogo img {
+  width: 30px;
+  height: 30px;
+}
+#containerFeatures .cardFeatures .card {
+  background-color: #fff;
+  padding: 55px 25px 30px;
+  border-radius: 5px;
+}
+#containerFeatures .cardFeatures .card h3 {
+  text-align: left;
+  color: hsl(260, 8%, 14%);
+  font-size: 17px;
+  font-family: "Poppins700";
+}
+#containerFeatures .cardFeatures .card p {
+  text-align: left;
+  color: hsl(257, 7%, 63%);
+  font-size: 12px;
+  font-family: "Poppins500";
+  margin-top: 15px;
+}
+#containerFeatures .cf1 {
+  align-self: flex-start;
+}
+#containerFeatures .cf2 {
+  align-self: center;
+}
+#containerFeatures .cf3 {
+  align-self: flex-end;
+}
+#infoLinks {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/bg-boost-desktop.svg");
+  background-color: hsl(257, 27%, 26%);
+  padding: 50px 0;
+}
+#infoLinks h3 {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Poppins700';
+}
+#infoLinks .btn-linkStart {
+  padding: 10px 25px;
+  border-radius: 50px;
+  background: hsl(180, 66%, 49%);
+  color: #fff;
+  border: none;
+  font-family: 'Poppins700';
+  margin-top: 20px;
+}
+#infoLinks .btn-linkStart:hover {
+  opacity: 0.5;
+  color: #fff;
+}
+footer {
+  background-color: black;
+  display: flex;
+  flex-flow: ccolum;
+}

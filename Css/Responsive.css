@@ -1,0 +1,258 @@
+@media (max-width: 910px) {
+  .container {
+    width: 90%;
+  }
+  header #container-logo {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+  }
+  header #container-logo #movilmenu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin: 30px 10px 20px;
+  }
+  header #container-logo #movilmenu i {
+    font-size: 28px;
+    color: hsl(0, 0%, 75%);
+  }
+  header #container-menu {
+    position: absolute;
+    background-color: hsl(257, 27%, 26%);
+    height: 375px;
+    width: 85%;
+    top: 100px;
+    left: -100%;
+    z-index: 1000;
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  header #container-menu #menu ul {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    flex-basis: 50%;
+    margin-top: 20px;
+  }
+  header #container-menu #menu ul li {
+    margin: 20px auto;
+  }
+  header #container-menu #menu ul li a {
+    height: 50%;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    color: white;
+  }
+  header #container-menu #menu ul li a:hover {
+    color: hsl(180, 66%, 49%);
+  }
+  header #container-menu .lineMenu {
+    border-top: 1px solid gray;
+    opacity: 0.3;
+    width: 80%;
+    margin: 0 auto;
+  }
+  header #container-menu #login {
+    display: flex;
+  }
+  header #container-menu #login ul {
+    flex-flow: column wrap;
+    flex-grow: 1;
+    justify-content: flex-start;
+  }
+  header #container-menu #login ul li {
+    margin: 20px auto;
+  }
+  header #container-menu #login ul li a {
+    height: 50%;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    color: white;
+  }
+  header #container-menu #login ul li a:hover {
+    color: hsl(180, 66%, 49%);
+  }
+  header #container-menu #login ul li .btn-login {
+    padding: 10px 105px;
+  }
+  #containerInfo {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0;
+  }
+  #containerInfo #info {
+    order: 2;
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    margin: 10px 0 120px;
+  }
+  #containerInfo #info h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 42px;
+  }
+  #containerInfo #info #txtInfo {
+    text-align: center;
+    margin: 20px 0;
+  }
+  #containerInfo #info #btn-info {
+    margin: 15px auto 0;
+    font-size: 18px;
+    padding: 15px 40px;
+  }
+  #containerInfo #imageInfo {
+    order: 1;
+  }
+  #containerInfo #imageInfo img {
+    content: url("../images/illustration-working-shorten-mobile.svg");
+    width: 105%;
+  }
+  input[type="text"] {
+    width: auto;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  input::placeholder {
+    color: hsl(0, 0%, 75%);
+  }
+  #wrap {
+    padding-bottom: 70px;
+  }
+  #wrap #boxViolet {
+    padding: 25px 25px;
+    background-image: url("../images/bg-shorten-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  #wrap #boxViolet .containerBtn-link {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  #wrap #boxViolet .containerBtn-link .btn-link {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  #wrap .cardlink {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: normal;
+    padding: 0;
+  }
+  #wrap .cardlink p {
+    padding: 15px;
+    font-size: 16px;
+    color: hsl(257, 27%, 26%);
+  }
+  #wrap .cardlink #pLink {
+    width: auto;
+  }
+  #wrap .cardlink .btnlinks {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: normal;
+    border-top: 0.5px solid hsl(0, 0%, 75%);
+    padding: 15px;
+    font-size: 16px;
+  }
+  #wrap .cardlink .btnlinks .abrev {
+    padding: 0;
+  }
+  #wrap .cardlink .btnlinks .btnCardLink {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  #wrap .wrapInfo h2 {
+    font-size: 26px;
+  }
+  #wrap .wrapInfo #txtWrapInfo {
+    margin: 10px 0;
+  }
+  #containerFeatures {
+    display: flex;
+    flex-flow: column wrap;
+    height: auto;
+  }
+  #containerFeatures .cardFeatures .card {
+    width: auto;
+    padding: 0px 25px 30px;
+  }
+  #containerFeatures .cardFeatures .card .cardlogo {
+    left: 0;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    top: -35px;
+  }
+  #containerFeatures .cardFeatures .card .cardlogo img {
+    width: 35px;
+    height: 35px;
+  }
+  #containerFeatures .cardFeatures .card h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+  #containerFeatures .cardFeatures .card p {
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  #containerFeatures .containerLine {
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+  #containerFeatures .containerLine .line {
+    height: 50px;
+    width: 0;
+  }
+  #infoLinks {
+    background-image: url("../images/bg-boost-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 105px 0;
+  }
+  #infoLinks h3 {
+    font-size: 27px;
+  }
+  #infoLinks .containerBtn-linkStart .btn-linkStart {
+    font-size: 17px;
+    padding: 15px 45px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .containerFooter {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 60px auto 0;
+  }
+  footer .containerFooter .logo {
+    margin-right: 0;
+  }
+  footer .containerFooter .footerLinks {
+    margin-bottom: 40px;
+    font-size: 14px;
+  }
+  footer .containerFooter .footerLinks ul li {
+    line-height: 30px;
+  }
+  footer .containerFooter #socialnet {
+    width: 70%;
+    margin: 0 auto;
+  }
+  footer .attribution {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
