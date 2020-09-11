@@ -122,7 +122,7 @@
     }
 
     input[type="text"] {
-        width: unset;
+        width: inherit;
         padding: 10px 25px;
         border-radius: 5px;
         font-size: 16px;
@@ -276,5 +276,11 @@
             width:90%;
             margin: 0 auto;
         }
+    }
+}
+
+@media(max-width: 331px){
+    input[type="text"] {
+        width: 75%;
     }
 }
