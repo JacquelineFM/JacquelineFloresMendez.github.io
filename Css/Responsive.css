@@ -115,7 +115,7 @@
     width: 105%;
   }
   input[type="text"] {
-    width: unset;
+    width: 88%;
     padding: 10px 25px;
     border-radius: 5px;
     font-size: 16px;
@@ -134,6 +134,9 @@
   }
   #wrap #boxViolet .containerinput {
     width: 100%;
+  }
+  #wrap #boxViolet .containerinput label {
+    width: 88%;
   }
   #wrap #boxViolet .containerBtn-link {
     width: 100%;
@@ -257,5 +260,10 @@
   footer .attribution {
     width: 90%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 331px) {
+  input[type="text"] {
+    width: 75%;
   }
 }
