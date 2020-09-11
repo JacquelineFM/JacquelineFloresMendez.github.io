@@ -115,7 +115,7 @@
     width: 105%;
   }
   input[type="text"] {
-    width: 82%;
+    width: unset;
     padding: 10px 25px;
     border-radius: 5px;
     font-size: 16px;
@@ -131,6 +131,9 @@
     background-image: url("../images/bg-shorten-mobile.svg");
     background-repeat: no-repeat;
     background-position: top right;
+  }
+  #wrap #boxViolet .containerinput {
+    width: 100%;
   }
   #wrap #boxViolet .containerBtn-link {
     width: 100%;
